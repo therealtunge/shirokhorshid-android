@@ -90,7 +90,7 @@ jobs:
             -ldflags="$LDFLAGS" \
             -o psi.aar \
             github.com/Psiphon-Labs/psiphon-tunnel-core/MobileLibrary/psi \
-            github.com/2dust/AndroidLibXrayLite
+            github.com/2dust/AndroidLibXrayLite/libv2ray
         working-directory: ${{ runner.temp }}/gopath/src/github.com/Psiphon-Labs/psiphon-tunnel-core/MobileLibrary/Android
 
       - name: Post-process AAR
